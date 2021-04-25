@@ -28,3 +28,7 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 }
+
+.main {
+	padding-top: 2rem;
+}
