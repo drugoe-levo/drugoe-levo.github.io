@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Furore';
+    src: url('Furore.eot');
+    src: url('Furore.eot?#iefix') format('embedded-opentype'),
+        url('Furore.woff2') format('woff2'),
+        url('Furore.woff') format('woff'),
+        url('Furore.ttf') format('truetype'),
+        url('Furore.svg#Furore') format('svg'),
+        url('Furore.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

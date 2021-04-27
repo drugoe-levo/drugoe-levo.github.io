@@ -1,9 +1,4 @@
-@font-face {
-	font-family: 'Furore',
-	src: url("../fonts/furore.ttf");
-	font-style: normal; 
-	font-weight: normal;
-}
+@import "../fonts/furore.css";
 
 body {
 	font-family: 'Roboto', Sans-serif;
@@ -11,7 +6,7 @@ body {
 	margin: 0;
 	line-height: 1.6;
 	color: #000;
-	background-color: #fff
+	background-color: #fff;
 }
 
 *,
@@ -20,9 +15,9 @@ body {
 	box-sizing: border-box;
 }
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 30px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .header {
@@ -52,25 +47,25 @@ body {
 }
 
 .nav {
-    display: flex;
-    font-weight: 700;
-    text-transform: uppercase;
+	display: flex;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .nav__link {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
-    margin-left: 50px;
-    font-weight: 300;
-    color: #000;
-    text-decoration: none;
+	margin-left: 50px;
+	font-weight: 300;
+	color: #000;
+	text-decoration: none;
 
-    transition: color 0.1s linear;
+	transition: color 0.1s linear;
 }
 
 .nav__link:first-child {
-    margin-left: 0;
+	margin-left: 0;
 }
 
 .nav__link:hover {
@@ -79,7 +74,7 @@ body {
 
 
 .nav__link.active {
-    color: #fce38a;
+	color: #fce38a;
 }
 
 .intro {
@@ -90,31 +85,46 @@ body {
 	height: 100vh;
 	background: url(http://via.placeholder.com/640x360) center no-repeat;
 	padding-top: 100px;
-    background-size: cover;
+	background-size: cover;
 
 }
 
 .intro__inner {
-    width: 100%;
-    max-width: 880px;
-    margin: 0 auto;
-    text-align: center;
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .intro__title {
-    color: #fff;
-    font-size: 4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1;
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
 }
 
-.intro__suptitle {
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 2rem;
+.intro__subtitle {
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 2rem;
 }
 
 .new__videos {
 	text-align: center;
+	font-size: 3rem;
+}
+
+.video__link {
+	display: flex;
+	border: 1px solid #000;
+	width: 24%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.video__name {
+	text-decoration: none;
+	font-size: 1rem;
+	color: #000;
 }
