@@ -110,21 +110,29 @@ body {
 	font-size: 2rem;
 }
 
-.new__videos {
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.video__link {
+	border: 1px solid #000;
+	padding: 1rem;
+	margin: 0.5rem;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+.new__videos__title {
 	text-align: center;
 	font-size: 3rem;
 }
 
-.video__link {
-	display: flex;
-	border: 1px solid #000;
-	width: 24%;
-	padding: 2%;
-	margin: 2%;
-}
-
 .video__name {
+	font-size: 1.5rem;
 	text-decoration: none;
-	font-size: 1rem;
 	color: #000;
+	margin: 0;
 }
